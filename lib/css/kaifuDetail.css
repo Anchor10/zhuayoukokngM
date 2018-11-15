@@ -1,0 +1,260 @@
+body {
+    background: #f0f0f0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.ku_con {
+    background: #fff;
+    margin-top: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ku_download_game {
+    margin: 0 10px;
+    height: 70px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.ku_download_game a {
+    display: inline-block;
+    position: absolute;
+}
+
+.ku_download_game p {
+    position: absolute;
+}
+
+.ku_download_game .a1 {
+    width: 70px;
+    top: 10px;
+    left: 0;
+}
+
+.ku_download_game .a1 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 3px;
+}
+
+.ku_download_game .a2 {
+    left: 80px;
+    top: 12px;
+    color: #333;
+    width: 70%;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ku_download_game .p1 {
+    left: 80px;
+    top: 36px;
+    color: #808080;
+    font-size: 12px;
+}
+
+.ku_download_game .p2 {
+    left: 80px;
+    top: 58px;
+    color: #808080;
+    font-size: 12px;
+}
+
+.ku_download_game .p2 span {
+    float: left;
+    width: 82%;
+    line-height: 15px;
+    height: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ku_download_game .p2 .renqi {
+    float: left;
+    width: 100%;
+    line-height: 15px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.ku_download_game .p2 span img {
+    width: 14px;
+    margin-right: 2px;
+    float: left
+}
+
+.ku_download_game .p3 {
+    right: -10px;
+    top: 16px;
+    padding: 0 5px 0 15px;
+    border-radius: 15px 0 0 15px;
+    background: #f75900;
+    text-align: center;
+    color: #fff;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.ku_download_game .p4 {
+    right: -10px;
+    top: 48px;
+    padding: 0 5px 0 15px;
+    border-radius: 15px 0 0 15px;
+    background: #f74000;
+    text-align: center;
+    color: #fff;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.ku_download_game .p5 {
+    background: #ffa800;
+}
+
+.ku_download_game .p3 i {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.download_button {
+    clear: both;
+    padding: 0 0 10px;
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+    z-index: 9;
+    box-shadow: 0 2px 0 rgba(227, 227, 227, 0.2);
+}
+
+.download_button p {
+    clear: both;
+    font-size: 16px;
+}
+
+.download_button .p1 {
+    padding: 10px 0 10px 10px;
+    color: #333;
+}
+
+.download_button .p1 .btb {
+    color: red;
+    font-size: 16px;
+    position: absolute;
+    left: 10px;
+}
+
+.download_button .p2 a {
+    color: #fff;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.download_button .p2 a span {
+    border-radius: 3px;
+    display: block;
+    line-height: 37px;
+    height: 35px;
+}
+
+.download_button .p2 .a1 span {
+    margin: 0 5px 0 10px;
+    background: #40af68;
+}
+
+.download_button .p2 .a2 span {
+    margin: 0 10px 0 5px;
+    background: #e2a856;
+}
+
+.download_button .p2 .a3 span {
+    margin: 0 5px 0 10px;
+    background: #009dff;
+}
+
+/*下载按钮*/
+.download_button .p2 a span em {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.download_button .p2 .a2 span em {
+    background: url(../images/ld_1.png) no-repeat left center;
+    background-size: 10px auto
+}
+
+.download_button .p2 .a1 span em {
+    background: url(../images/ld_2.png) no-repeat left center;
+    background-size: 10px auto
+}
+
+.download_button .p1 {
+    position: relative;
+    font-size: 16px;
+}
+
+.download_button .p1 span {
+    position: absolute;
+    right: 10px;
+    color: #808080;
+}
+
+.download_button .p1 .fuli {
+    position: absolute;
+    left: 10px;
+    top: 32px;
+    font-size: 14px;
+    color: #808080;
+}
+
+.download_button .p1 span em a {
+    color: #40af68;
+}
+
+.download_button.fixed {
+    position: fixed;
+    top: 0px;
+}
+
+/* tab-main -------------------*/
+/*导航*/
+.publicbg{background:#fff;margin-top:8px;}
+.new_tit{text-align:center}
+.local{line-height:40px;border-bottom:1px solid #e3e3e3;border-top:2px solid #288ddd;padding-left:10px;font-size:13px;color:#666666;}
+.local a{font-size:13px;color:#666666;}
+.local a:after{content:">";color:#666666;margin:0 5px;}
+.mostnew_tit{font-size: 15px; background: #fff; line-height:40px;border-bottom:1px solid #e3e3e3;border-top:2px solid #288ddd;font-weight:800;padding-left:10px;color:#288ddd;}
+.mostnew_tit a{float:right; font-size:13px; color:#808080; font-weight:normal; margin-right:10px;font-family:"宋体";}
+
+/* 开服时间表 */
+.wlkp-list-box{margin-left: 12px;border-left: 1px dashed #e0e0e0;padding: 12px 0;} .wlkp-list ul li{display: box; /* OLD - Android 4.4- */display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */display: -ms-flexbox; /* TWEENER - IE 10 */display: -webkit-flex; /* NEW - Chrome */display: flex;-webkit-justify-content: space-around;-moz-justify-content: space-around;-ms-justify-content: space-around;-o-justify-content: space-around;justify-content: space-around;color: #2a2a2a;font-size: 13px;height: 36px;background: url(../images/wlk-round.png?v1) no-repeat left center;background-size: 16px auto;margin-left: -8px;}
+.wlkp-list ul li p{height: 24px;line-height: 24px;margin-top: 6px;text-align: center;}
+.wlkp-list ul li .p1{width: 35%;padding-left:4px;}
+.wlkp-list ul li .p1 span{text-align: center;padding: 0 6px;}
+.wlkp-list ul li .p1 em{display: inline-block;float: right;}
+.wlkp-list ul li .p2{width: 172px;padding-left: 12px;text-align: center;background: #eee;}
+.wlkp-list-more a{display: block;height: 36px;width: 100%;text-align: center;line-height: 36px;border-top: 1px solid #ccc;color: #808080;} .wlkp-list ul li.on{background: url(../images/wlk-round2.png?v1) no-repeat left center;background-size: 16px auto;} .wlkp-list ul li.on .p1{color: #73d75c;} .wlkp-list ul li.on .p2{color: #fff;background: #73d75c;}
+.g_icon{width:66px;height:54px}
+.g_icon img{width:54px;height:54px}
+.g_main{height:54px;-moz-box-flex:1;-webkit-box-flex:1;box-flex:1}
+.g_main h3{font-size:16px;color:#111;font-weight: 300;margin-bottom: 5px;}
+.g_main p{font-size:11px;line-height:16px;color:#808080;}
+.g_main h3,.g_main p{display:block;width:100%;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.g_main p span{padding-left:6px;color:#f60}
+.may_libao{padding: 0 10px;}
+.may_libao li{display:box;display:-moz-box;display:-webkit-box;padding:10px 0;border-bottom:1px solid #eee}
+.may_libao li .btn{margin-top:12px}
+.may_libao li .btn a{display:block;padding-left:25px;width:44px;height:30px;line-height:30px;border-radius:3px;background:#6bb247;color:#fff;margin:0 auto;font-size:14px}
+.may_libao li .g_main p span{padding-left:none}

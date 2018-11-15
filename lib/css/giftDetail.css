@@ -1,0 +1,265 @@
+body {
+    background: #f0f0f0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.ku_con {
+    background: #fff;
+    margin-top: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ku_download_game {
+    margin: 0 10px;
+    height: 70px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.ku_download_game a {
+    display: inline-block;
+    position: absolute;
+}
+
+.ku_download_game p {
+    position: absolute;
+}
+
+.ku_download_game .a1 {
+    width: 70px;
+    top: 10px;
+    left: 0;
+}
+
+.ku_download_game .a1 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 3px;
+}
+
+.ku_download_game .a2 {
+    left: 80px;
+    top: 12px;
+    color: #333;
+    width: 70%;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ku_download_game .p1 {
+    left: 80px;
+    top: 36px;
+    color: #808080;
+    font-size: 12px;
+}
+
+.ku_download_game .p2 {
+    left: 80px;
+    top: 58px;
+    color: #808080;
+    font-size: 12px;
+}
+
+.ku_download_game .p2 span {
+    float: left;
+    width: 82%;
+    line-height: 15px;
+    height: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ku_download_game .p2 .renqi {
+    float: left;
+    width: 100%;
+    line-height: 15px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.ku_download_game .p2 span img {
+    width: 14px;
+    margin-right: 2px;
+    float: left
+}
+
+.ku_download_game .p3 {
+    right: -10px;
+    top: 16px;
+    padding: 0 5px 0 15px;
+    border-radius: 15px 0 0 15px;
+    background: #f75900;
+    text-align: center;
+    color: #fff;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.ku_download_game .p4 {
+    right: -10px;
+    top: 48px;
+    padding: 0 5px 0 15px;
+    border-radius: 15px 0 0 15px;
+    background: #f74000;
+    text-align: center;
+    color: #fff;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.ku_download_game .p5 {
+    background: #ffa800;
+}
+
+.ku_download_game .p3 i {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.download_button {
+    clear: both;
+    padding: 0 0 10px;
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+    z-index: 9;
+    box-shadow: 0 2px 0 rgba(227, 227, 227, 0.2);
+}
+
+.download_button p {
+    clear: both;
+    font-size: 16px;
+}
+
+.download_button .p1 {
+    padding: 10px 0 10px 10px;
+    color: #333;
+}
+
+.download_button .p1 .btb {
+    color: red;
+    font-size: 16px;
+    position: absolute;
+    left: 10px;
+}
+
+.download_button .p2 a {
+    color: #fff;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.download_button .p2 a span {
+    border-radius: 3px;
+    display: block;
+    line-height: 37px;
+    height: 35px;
+}
+
+.download_button .p2 .a1 span {
+    margin: 0 5px 0 10px;
+    background: #40af68;
+}
+
+.download_button .p2 .a2 span {
+    margin: 0 10px 0 5px;
+    background: #e2a856;
+}
+
+.download_button .p2 .a3 span {
+    margin: 0 5px 0 10px;
+    background: #009dff;
+}
+
+/*下载按钮*/
+.download_button .p2 a span em {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.download_button .p2 .a2 span em {
+    background: url(../images/ld_1.png) no-repeat left center;
+    background-size: 10px auto
+}
+
+.download_button .p2 .a1 span em {
+    background: url(../images/ld_2.png) no-repeat left center;
+    background-size: 10px auto
+}
+
+.download_button .p1 {
+    position: relative;
+    font-size: 16px;
+}
+
+.download_button .p1 span {
+    position: absolute;
+    right: 10px;
+    color: #808080;
+}
+
+.download_button .p1 .fuli {
+    position: absolute;
+    left: 10px;
+    top: 32px;
+    font-size: 14px;
+    color: #808080;
+}
+
+.download_button .p1 span em a {
+    color: #40af68;
+}
+
+.download_button.fixed {
+    position: fixed;
+    top: 0px;
+}
+
+/* tab-main */
+/*导航*/
+.publicbg{background:#fff;margin-top:8px;}
+.new_tit{text-align:center}
+.local{line-height:40px;border-bottom:1px solid #e3e3e3;border-top:2px solid #288ddd;padding-left:10px;font-size:13px;color:#666666;}
+.local a{font-size:13px;color:#666666;}
+.local a:after{content:">";color:#666666;margin:0 5px;}
+.mostnew_tit{font-size: 15px; background: #fff; line-height:40px;border-bottom:1px solid #e3e3e3;border-top:2px solid #288ddd;font-weight:800;padding-left:10px;color:#288ddd;}
+.mostnew_tit a{float:right; font-size:13px; color:#808080; font-weight:normal; margin-right:10px;font-family:"宋体";}
+/* 礼包领取 */
+.get_gift{margin:0 10px;}
+.get_gift li{border-bottom:1px dashed #d7d7d7;display:box;display:-webkit-box;display:-moz-box;width:100%;padding:10px 0;}
+.get_gift li:last-child{border:0}
+.get_gift li .gift_left{box-flex:1;-moz-box-flex:1;-webkit-box-flex:1; color:#333}
+.get_gift li .gift_left .p1{font-size:14px;line-height:25px;}
+.get_gift li .gift_left .p2{font-size:13px; color:#808080; line-height:20px;}
+.get_gift li .gift_left .p2 span{float:left;width:140px; background:#bfbfbf; height:8px; border-radius:15px; margin-top:7px}
+.get_gift li .gift_left .p2 span em{float:left;width:0; background:#00cf0e; height:8px; border-radius:15px}
+.get_gift li .gift_left .p2 i{float:left; margin-left:10px;}
+.get_gift li .gift_right{width:62px; margin:0 0 0 10px;}
+.get_gift li .gift_right a{font-size:14px;height:28px;line-height:30px;text-align:center;border-radius:3px;border:1px solid #00cf0e;color:#00cf0e;display:block;background:#fff; margin-top:8px}
+.get_gift li .gift_right a:hover{background:#00cf0e;color:#fff;}
+/* 热门礼包推荐 */
+.game-tw-lb{margin-top:-1px; background: #fff;}
+.game-tw-lb li{border-top:1px solid #dbe1ec;padding:15px 10px; clear:both;zoom:1; overflow:hidden;}
+.game-tw-lb li .pic{width:55px;float:left; padding-right:8px;}
+.game-tw-lb li .pic img{width:55px; height:55px;display:block;border-radius:50%;}
+.game-tw-lb li div{padding:0 70px 0 69px;height:55px;}
+.game-tw-lb li h3{font-size:14px;line-height:17px;height:34px;display:block; overflow:hidden; font-weight:normal;}
+.game-tw-lb li a.btn{width:60px; height:31.5px; line-height:31.5px;border-radius:5px; font-size:14px; background:#ff9d10; text-align:center; display:block; float:right;color:#fff; margin-top:13px;}
+.progress-dl{position:relative; padding-right:73px;}
+.progress-dl dd{position:absolute; right:0; top:-3px; font-size:12px; color:#ff9d10; text-align:left; line-height:13px; width:68px; padding-left:5px;}
+.progress-dl dd font{ color:#999; padding-right:3px;}
+.progressbar{border:1px solid #e3e3e3; margin-top:12px; font-family:Arial, Helvetica, sans-serif; background:url("../images/hui-icon.png") repeat-x; border-radius:3px; display: block; height:5px; overflow: hidden; position: relative; width:100%;}
+.progressbar p{background:url("../images/blue-icon.png") repeat-x; border-radius:3px; height:5px; position: absolute; left: 0; top: 0; z-index: 4;}

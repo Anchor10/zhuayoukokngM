@@ -1,0 +1,595 @@
+body {
+  font-family: "Microsoft YaHei";
+  max-width: 750px;
+  margin: 0 auto;
+}
+.body-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+header {
+  max-width: 750px;
+}
+header .layout {
+  max-width: 750px;
+}
+.back {
+  width: 43px;
+  height: 43px;
+  background: url(../images/icon_back.png) no-repeat 12px 10px;
+  background-size: 25px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  text-indent: -999em;
+}
+.title-h3 {
+  height: 40px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 40px;
+  color: #535353;
+  border-bottom: 1px solid #e3e3e3;
+  text-indent: 5px;
+  border-top: 2px solid #288ddd;
+  display: block;
+}
+main .seat {
+  height: 20px;
+  width: 100%;
+  background: #ebebeb;
+  line-height: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #7f7f7f;
+}
+main .seat a {
+  color: #7f7f7f;
+  font-size: 12px;
+  padding: 0 5px;
+}
+main .game {
+  height: 164px;
+  border-bottom: 1px solid #d6d6d6;
+}
+main .game .game-total {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .game .game-total .game-img {
+  width: 82px;
+  height: 82px;
+  margin: 12px 7px 18px;
+}
+main .game .game-total .game-img img {
+  width: 82px;
+  height: 82px;
+}
+main .game .game-total .game-info {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  margin-right: 10px;
+}
+main .game .game-total .game-info h2 {
+  font-size: 18px;
+  line-height: 44px;
+  color: #000;
+}
+main .game .game-total .game-info .param {
+  font-size: 12px;
+  color: #6f6f6f;
+  overflow: hidden;
+  padding-right: 10px;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+main .game .game-total .game-info .param span {
+  padding-right: 15px;
+  padding-bottom: 5px;
+  display: inline-block;
+  overflow: hidden;
+}
+main .game .game-total .game-info .param span:nth-of-type(5) {
+  width: 500px !important;
+}
+main .game .game-total .game-info .param span em {
+  font-style: normal;
+  color: #ff7f27;
+  overflow: hidden;
+}
+main .game .download_button {
+  clear: both;
+  padding: 0 0 10px;
+  background: #fff;
+  width: 100%;
+  z-index: 9;
+}
+main .game .download_button p {
+  clear: both;
+}
+main .game .download_button .p2 a {
+  color: #fff;
+  float: left;
+  width: 50%;
+  text-align: center;
+  overflow: hidden;
+}
+main .game .download_button .p2 em {
+  font-size: 15px;
+  padding-left: 15px;
+  font-style: normal;
+}
+main .game .download_button .p2 a span {
+  border-radius: 3px;
+  display: block;
+  line-height: 37px;
+  height: 35px;
+}
+main .game .download_button .p2 .a1 span {
+  margin: 0 5px 0 10px;
+  background: #229bff;
+}
+main .game .download_button .p2 .a2 span {
+  margin: 0 10px 0 5px;
+  background: #e2a856;
+}
+main .game .download_button .p2 .a3 span {
+  margin: 0 5px 0 10px;
+  background: #009dff;
+}
+main .game .download_button .p2 .a2 span em {
+  background: url(../images/ld_1.png) no-repeat left center;
+  background-size: 10px auto;
+}
+main .game .download_button .p2 .a1 span em {
+  background: url(../images/download.png) no-repeat -5px 0px;
+  background-size: 21px 22px;
+}
+main .game .download_button.fixed {
+  position: fixed;
+  top: 0px;
+  max-width: 750px;
+  border-bottom: 1px solid #d6d6d6;
+  box-shadow: 1px 1px 10px #999;
+}
+main .game-box {
+  width: 100%;
+}
+main .game-box .game-box-download {
+  width: 95%;
+  height: 46px;
+  margin: 7px auto;
+  border: 1px solid #d5d5d5;
+  background: #e7e7e7;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .game-box .game-box-download img {
+  width: 38px;
+  height: 38px;
+  margin: 3px 8px;
+}
+main .game-box .game-box-download .box-explain {
+  font-size: 14px;
+  line-height: 46px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+main .game-box .game-box-download .download-btn {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url(../images/dl.gif);
+  background-size: 18px 18px;
+  margin: 14px 10px;
+}
+main .game-box .compatible {
+  display: block;
+  width: 100%;
+}
+main .game-box .compatible .compa-tips {
+  font-size: 16px;
+  color: #9b0d14;
+  text-indent: 7px;
+  margin-top: 14px;
+}
+main .game-box .compatible .compa-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-top: 11px;
+  margin-bottom: 13px;
+}
+main .game-box .compatible .compa-list .compa-game img {
+  width: 60px;
+  height: 60px;
+}
+main .game-box .compatible .compa-list .compa-game span {
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  color: #333333;
+  margin-top: 9px;
+  width: 60px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+main .game-introduce {
+  width: 100%;
+}
+main .game-introduce h3 {
+  display: block;
+}
+main .game-introduce p.introduce-detail {
+  min-height: 90px;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 0 10px;
+  color: #6f6f6f;
+}
+main .game-introduce .special-intro {
+  width: 93%;
+  margin: 0 auto;
+  border: 1px solid #ffb400;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 18px;
+}
+main .game-introduce .special-intro span {
+  background: url(../images/deng.png) no-repeat;
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 16px 5px 0 16px;
+}
+main .game-introduce .special-intro p {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  line-height: 24px;
+  font-size: 14px;
+  color: #ff7f27;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+/* 详情轮播 */
+#slide1 {
+  display: none;
+    z-index: 10000;
+    position: fixed;
+    width: 95%;
+    height: 100%;
+    margin: 0 2.5%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+#slide1 .swiper-wrapper {
+  width: 100%;
+}
+#slide1 .swiper-slide {
+  text-align: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#slide1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#slide1 .swiper-pagination-bullet {
+  background: #eee;
+}
+#slide1 .swiper-pagination-bullet-active {
+  background: #007aff;
+}
+#slide2 {
+  z-index: 2;
+  margin: 10px;
+  margin-bottom: 0;
+  width: auto;
+}
+#slide2 .swiper-wrapper{
+  width: auto;
+}
+#slide2 .swiper-slide{
+  /* max-width: 250px; */
+  width: auto !important;
+}
+#slide2 img {
+  display: block;
+  max-width: 250px;
+  max-height: 300px;
+}
+.logbg {
+  width: 100%;
+  height: 100% !important;
+  background-color: #000;
+  opacity: .7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: none;
+}
+main .related-download h3 {
+  display: block;
+}
+main .related-download .related-list li {
+  padding: 0 10px;
+}
+main .related-download .related-list li:nth-of-type(1) .border-t {
+  border-top: 0;
+}
+main .related-download .related-list li .border-t {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0;
+  border-top: 1px solid #dbe1ec;
+}
+main .related-download .related-list li .related-pic {
+  width: 75px;
+  height: 75px;
+}
+main .related-download .related-list li .related-pic img {
+  width: 75px;
+  height: 75px;
+}
+main .related-download .related-list li .related-info {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-left: 10px;
+  position: relative;
+  overflow: hidden;
+}
+main .related-download .related-list li .related-info h4 {
+  display: block;
+  font-size: 16px;
+  color: #252525;
+  margin-top: 3px;
+  font-weight: 300;
+}
+main .related-download .related-list li .related-info h4 a {
+  color: #252525;
+}
+main .related-download .related-list li .related-info .game-info {
+  font-size: 14px;
+  color: #6f6f6f;
+  margin-top: 15px;
+  height: 14px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+main .related-download .related-list li .related-info .game-wel {
+  font-size: 14px;
+  height: 14px;
+  color: #ff7f27;
+  margin-top: 8px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+main .related-download .related-list li .related-info .download {
+  display: block;
+  width: 55px;
+  height: 26px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 26px;
+  color: #fff;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background: #229bff;
+}
+main .stratege h3 {
+  display: block;
+}
+main .stratege .article {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 33px;
+  width: 95%;
+  font-size: 14px;
+  color: #535353;
+  line-height: 33px;
+  margin: 0 auto;
+  border-top: 1px solid #dbe1ec;
+}
+main .stratege .article:nth-of-type(1) {
+  border-top: 0;
+}
+main .stratege .article:before {
+  content: "";
+  width: 5px;
+  height: 4px;
+  background: url(../images/point.png) no-repeat;
+  line-height: 33px;
+  margin-top: 15px;
+}
+main .stratege .article .article-title {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-left: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+main .stratege .article .article-date {
+  display: block;
+  width: 50px;
+  text-align: center;
+}
+main .related-topic {
+  width: 100%;
+}
+main .related-topic h3 {
+  display: block;
+}
+main .related-topic .topic {
+  padding: 0 10px;
+}
+main .related-topic .topic:nth-of-type(1) .border-t {
+  border-top: 0;
+}
+main .related-topic .topic .border-t {
+  border-top: 1px solid #dbe1ec;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .related-topic .topic .topic-pic {
+  width: 150px;
+  height: 70px;
+}
+main .related-topic .topic .topic-pic img {
+  width: 150px;
+  height: 70px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: block;
+}
+main .related-topic .topic .topic-info {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-left: 8px;
+}
+main .related-topic .topic .topic-info h4 {
+  font-size: 14px;
+  color: #535353;
+  line-height: 24px;
+}
+main .related-topic .topic .topic-info p {
+  font-size: 12px;
+  height: 48px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 24px;
+  color: #6f6f6f;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+main .hot-crack h3 {
+  position: relative;
+}
+main .hot-crack h3 a {
+  font-weight: 300;
+  font-size: 14px;
+  color: #7f7f7f;
+  position: absolute;
+  right: 10px;
+}
+main .hot-crack .crack-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #288ddd;
+  padding-bottom: 15px;
+}
+main .hot-crack .crack-list .crack-flex {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 25%;
+  -ms-flex: 0 1 25%;
+  flex: 0 1 25%;
+  margin: 0 auto;
+}
+main .hot-crack .crack-list .crack-game {
+  display: block;
+  width: 80px;
+  margin: 15px auto 0;
+}
+main .hot-crack .crack-list .crack-game img {
+  width: 65px;
+  height: 65px;
+  display: block;
+  margin: 0px auto;
+  border-radius: 9px;
+}
+main .hot-crack .crack-list .crack-game p {
+  width: 80px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 6px;
+  color: #535353;
+}
+main .grid .title {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 40px;
+  border-bottom: 1px solid #e3e3e3;
+}
+main .grid .title span {
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-indent: 6px;
+  width: 80px;
+  height: 40px;
+  color: #535353;
+  font-size: 17px;
+  font-weight: 800;
+  padding-top: 14px;
+  border-bottom: 1px solid #288ddd;
+}
